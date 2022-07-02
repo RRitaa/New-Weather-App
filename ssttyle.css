@@ -57,3 +57,8 @@ li {
   font-size: 16px;
   top: -32px;
 }
+.weather-temprature .active {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
