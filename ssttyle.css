@@ -2,7 +2,6 @@ body {
   font-family: arial, sans-serif;
   color: #000000;
   background: content-box radial-gradient(crimson, skyblue);
-
 }
 
 h1 {
@@ -64,4 +63,21 @@ li {
   text-decoration: none;
   color: black;
   cursor: default;
+}
+
+.weather-forcast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.weather-forcast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forcast-temprature-min {
+  color: blue;
+}
+.weather-forcast-temprature {
+  font-size: 13px;
 }
