@@ -29,11 +29,11 @@ li {
   line-height: 19.2px;
 }
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 750px;
   margin: 30px auto;
 }
 .weather-app {
-  max-width: 600px;
+  max-width: 800px;
   margin: 30px auto;
   padding: 20px;
   border: 1px solid #dadde1;
@@ -45,7 +45,7 @@ li {
 .weather-temprature img {
   margin-right: 5px;
   height: 64px;
-  width: 64px;
+  width: 80px;
 }
 
 .weather-temprature strong {
