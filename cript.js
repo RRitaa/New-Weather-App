@@ -27,15 +27,13 @@ function displayForecast(response) {
   let forecastElement = document.querySelector("#forecast");
 
   let forecastHTML = `<div class ="row">`;
-
-  let days = ["Thur", "Fri", "Sat", "Sun"];
+  let days = ["Thu", "Fri", "Sat", "Sun"];
   days.forEach(function (day) {
     forecastHTML =
       forecastHTML +
-      ` 
-                <div class="col-2">
-                <div class="weather-forcast-date">${day}</div>
-                Thur
+      ` <div class="col-2">
+        <div class="weather-forcast-date">${day}</div>
+        
                 <img
                   src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
                   alt=""
