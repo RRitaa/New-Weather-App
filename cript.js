@@ -108,32 +108,7 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
-function showfahrenheitTemp(event) {
-  event.preventDefault();
-  let tempratureElement = document.querySelector("#temprature");
-  celsiusLink.classList.remove("active");
-  fahrenheitLink.classList.add("active");
-  let fahrenheitTemp = (celsiusTemprature * 9) / 5 + 32;
-  tempratureElement.innerHTML = Math.round(fahrenheitTemp);
-}
-
-function showcelsiusTemp(event) {
-  event.preventDefault();
-  celsiusLink.classList.add("active");
-  fahrenheitLink.classList.remove("active");
-  let tempratureElement = document.querySelector("#temprature");
-  tempratureElement.innerHTML = Math.round(celsiusTemprature);
-}
-
-let celsiusTemprature = null;
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", showfahrenheitTemp);
-
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", showcelsiusTemp);
-
-search("New York");
+search("Toronto");
